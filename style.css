@@ -1,0 +1,108 @@
+#connex_text{
+	margin:175px;
+	max-width: 100% !important;
+	left :35%;
+	position: absolute;
+}
+#copyright{
+	
+  position: absolute;
+ 
+
+  top:80%;
+  height: auto !important;
+	max-width: 100% !important;
+ 
+}
+
+#authentifi{
+	height: auto !important;
+top: 40%;
+margin: 70px;
+max-width: 100% !important;
+left: 30%;
+position: absolute;
+	
+}
+#imgMention{
+	top:200%
+}
+#img{
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+
+#frmRecherche{
+	
+	top:30%;
+	position: absolute;
+	height: auto !important;;
+	max-width: 100% !important;
+	left :20%;
+	
+	
+	
+}
+
+
+
+#basPage{
+	top:30%;
+	position: absolute;
+	height: auto !important;;
+	max-width: 100% !important;
+	left :20%;
+	
+	}
+	
+#barBas{
+	top:80%;
+	
+}
+
+#labelvisiteur{
+	left:20%;
+	height: 20%;
+}
+
+#btndeconnexion{
+	
+left:90%;
+top:20%;
+position: absolute;
+}
+
+
+#inscriptionchamp{
+	
+position: absolute;
+
+	height: auto !important;;
+	max-width: 100% !important;
+	top:20%;	
+}
+#frmInformationVisiteur{
+		
+	height: auto !important;;
+	max-width: 100% !important;
+	position: absolute;
+	
+	
+}
+
+#basInformation{
+	top:60%;
+	position: absolute;
+	height: auto !important;;
+	max-width: 100% !important;
+	left :20%;
+	
+	}
+#txtListeformations{
+	margin:20%;
+}
+.btn-positive{
+	background-color: #6390ab;
+	border:1px #6390ab;
+}

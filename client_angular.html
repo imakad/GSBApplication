@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+</head>
+
+<body>
+
+<div ng-app="" ng-controller="customersController"> 
+
+<ul>
+  <li ng-repeat="value in liste">
+    {{ value.nom + ', ' + value.ville }}
+  </li>
+</ul>
+
+</div>
+
+<script>
+function customersController($scope,$http) {
+  $http.get("http://localhost/_REST/api/v1/affiche2")
+  .success(function(response) {$scope.liste = response;});
+}
+/*
+var param = {
+				nom : $scope.name,
+				prenom : $scope.employees,
+				ville : $scope.headoffice
+		};
+		
+$http.post('/savecompany_json', param);
+		.success(function(data, status, headers, config) {
+			$scope.message = data;
+		});
+*/
+
+</script>
+
+</body>
+</html>
